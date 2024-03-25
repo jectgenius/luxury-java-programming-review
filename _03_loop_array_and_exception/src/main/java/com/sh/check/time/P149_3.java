@@ -1,4 +1,4 @@
-package com.sh.check.time.ch03;
+package com.sh.check.time;
 
 public class P149_3 {                           // P149_3 클래스 정의 시작
     public static void main(String[] args) {    // main() 메소드 정의 시작
