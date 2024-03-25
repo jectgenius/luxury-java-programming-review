@@ -1,4 +1,4 @@
-package com.sh.checkTime;
+package com.sh.check.time;
 
 public class SampleProgram {                    // SampleProgram 클래스 정의 시작
     public static void main(String[] args) {    // main() 메소드 정의 시작

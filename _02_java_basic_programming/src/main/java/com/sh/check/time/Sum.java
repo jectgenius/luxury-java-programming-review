@@ -1,4 +1,4 @@
-package com.sh.checkTime;
+package com.sh.check.time;
 
 import java.util.Scanner;                           // Scanner 클래스 사용하기위해 컴파일러에게 경로명을 알려줌
 
