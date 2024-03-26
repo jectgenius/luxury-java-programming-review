@@ -16,12 +16,12 @@ public class NestedIf {                                 // NestedIf 클래스 �
                 System.out.println("합격!");             // System.out.println() 메소드 호출하여 합격 안내 메세지 출력
             else if(score >= 70)                        // 그렇지 않고 변수 score에 저장된 값이 70보다 크거나 같으면, 즉 4학년이고 70점 이상이면
                 System.out.println("합격!");             // System.out.println() 메소드 호출하여 합격 안내 메세지 출력
-            else                                        // 그렇지 않으면, 4학년이고 70점 미만이면
+            else                                        // 그렇지 않으면, 즉 4학년이고 70점 미만이면
                 System.out.println("불합격!");           // System.out.println() 메소드 호출하여 불합격 안내 메세지 출력
         }
-        else
-            System.out.println("불합격!");
+        else                                            // 그렇지 않으면, 변수 score에 저장된 값이 60 미만이면, 즉 사용자가 입력한 점수가 60점 미만이면
+            System.out.println("불합격!");               // System.out.println() 메소드 호출하여 불합격 안내 메세지 출력
 
-        scanner.close();
+        scanner.close();                                // scanner 객체의 close() 메소드 호출하여 객체 닫기
     }                                                   // main() 메소드 정의 끝
 }                                                       // NestedIf 클래스 정의 끝

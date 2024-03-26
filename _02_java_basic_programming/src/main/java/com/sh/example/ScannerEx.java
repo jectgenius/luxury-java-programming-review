@@ -4,7 +4,7 @@ import java.util.Scanner;                                   // Scanner 클래스
 
 public class ScannerEx {                                    // ScannerEx 클래스 정의 시작
     public static void main(String[] args) {                // main() 메소드 정의 시작
-        Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);           // 사용자로부터 입력 받기 위해 Scanner 클래스 객체 생성
 
         System.out.println("이름, 도시, 나이, 체중, 독신 여부를 빈칸으로 분리하여 입력하세요."); // 입력 안내 메세지 출력
 
@@ -23,6 +23,6 @@ public class ScannerEx {                                    // ScannerEx 클래�
         boolean isSingle = scanner.nextBoolean();           // scanner 객체의 nextBoolean() 메소드 호출하여 사용자로부터 입력 받은 값을 boolean형 논리값으로 리턴하여 boolean형 변수 isSIngle에 대입
         System.out.println("독신 여부는 " + isSingle + "입니다.");// System.out.print() 메소드 호출하여 독신 여부 출력
 
-        scanner.close();                                    // scanner 객체의 close() 메소드 호출하여 초기화
+        scanner.close();                                    // scanner 객체의 close() 메소드 호출하여 객체 닫기
     }                                                       // main() 메소드 정의 끝
 }                                                           // ScannerEx 클래스 정의 끝
