@@ -2,7 +2,7 @@ package com.sh.exercise;
 
 import java.util.Scanner;
 
-public class Ch2_12_1 {
+public class Ch2_12_2 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -18,22 +18,23 @@ public class Ch2_12_1 {
         operand2 = sc.nextDouble();
 
         // 연산, 피연산자 종류에 따라 분기
-        if(operator.equals("+")) {
-            result = operand1 + operand2;
-        }
-        else if(operator.equals("-")) {
-            result = operand1 - operand2;
-        }
-        else if(operator.equals("*")) {
-            result = operand1 * operand2;
-        }
-        else if(operator.equals("/")) {
-            if(operand2 == 0) {
-                System.out.println("0으로 나눌 수 없습니다.");
-                return;
-            }
-
-            result = operand1 / operand2;
+        switch(operator) {
+            case "+":
+                result = operand1 + operand2;
+                break;
+            case "-":
+                result = operand1 - operand2;
+                break;
+            case "*":
+                result = operand1 * operand2;
+                break;
+            case "/":
+                if(operand2 == 0) {
+                    System.out.println("0으로 나눌 수 없습니다.");
+                    return;
+                }
+                result = operand1 / operand2;
+                break;
         }
 
         // 출력
