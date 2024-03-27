@@ -1,6 +1,6 @@
-package com.sh.check.time;
+package com.sh.exercise.theory;
 
-public class Ch2P109_14 {                   // Ch2P109_14 클래스 정의 시작
+public class P109_14 {                   // Ch2P109_14 클래스 정의 시작
     public static void main(String[] args) {// main() 메소드 정의 시작
         String in = "";                     // String 객체 in 선언 동시에 "" 대입하여 초기화
 
