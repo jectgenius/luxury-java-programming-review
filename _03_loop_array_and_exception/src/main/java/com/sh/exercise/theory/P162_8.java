@@ -8,7 +8,7 @@ public class P162_8 {                           // P162_8 클래스 정의 시�
         bool[2] = false;                        // 배열 bool의 2번째 요소에 false 대입
         bool[3] = true;                         // 배열 bool의 3번째 요소에 true 대입
 
-        boolean[] bool = {true, false, false, true}; // 크기가 4인 boolean형 배열 bool 선언 동시에 초기화 블럭으로 초기화
+//        boolean[] bool = {true, false, false, true}; // 크기가 4인 boolean형 배열 bool 선언 동시에 초기화 블럭으로 초기화
 
         double[][] d = new double[5][4];        // 크기가 5행 4열인 double형 배열 d 선언 동시에 생성
 //        double d [][]= new double[5][4];

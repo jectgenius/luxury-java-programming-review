@@ -6,10 +6,9 @@ public class Ch2_3 {                                                // Ch2_3 클
     public static void main(String[] args) {                        // main() 메소드 정의 끝
         // 변수 선언
         Scanner sc = new Scanner(System.in);                        // 사용자로부터 입력 받기 위해 Scanner 클래스 객체 생성
-        // 사용자로부터 입력 받은 금액
-        int money;
-        // 지폐 개수
-        int manWon5, manWon1, cheonWon1, baekWon5, baekWon1, sibWon5, sibWon1, illWon;
+
+        int money;                                                  // 사용자로부터 입력 받은 금액
+        int manWon5, manWon1, cheonWon1, baekWon5, baekWon1, sibWon5, sibWon1, illWon; // 지폐 개수
 
         System.out.print("금액을 입력하시오>>");                       // 입력 안내 메세지 출력
         money = sc.nextInt();                                       // sc 객체의 nextInt() 메소드 호출하여 사용자로부터 입력 받은 값 리턴 받아 money에 대입하여 초기화

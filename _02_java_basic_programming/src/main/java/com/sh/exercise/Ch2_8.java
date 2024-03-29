@@ -1,4 +1,4 @@
-package com.sh.exercise.theory;
+package com.sh.exercise;
 
 import java.util.Scanner;
 

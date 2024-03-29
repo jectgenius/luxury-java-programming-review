@@ -6,6 +6,8 @@ public class Ch2_1 {                                                // Ch2_1 클
     public static void main(String[] args) {                        // main() 메소드 정의 시작
         // 변수 선언
         Scanner scanner = new Scanner(System.in);                   // 사용자로부터 입력 받기 위해 Scanner 클래스 객체 생성
+        final double rate = 1100.0;                                 // 환율
+
         int won;                                                    // int형 변수 won 선언, 원화 저장
         double dollar;                                              // double형 변수 dollar 선언, 달러 저장
 
@@ -14,7 +16,7 @@ public class Ch2_1 {                                                // Ch2_1 클
         won = scanner.nextInt();                                    // 변수 won에 scanner 객체의 nextInt() 메소드 호출하여 사용자로부터 입력 받은 값 리턴 받아 대입하여 초기화,
                                                                     // 즉 달러로 변환할 원화 저장
         // 달러로 변환
-        dollar = (double) won / 1100;                               // 변수 dollar에 입력 받은 원화를 달러로 변환하여 대입하여 초기화
+        dollar = won / rate;                                        // 변수 dollar에 입력 받은 원화를 달러로 변환하여 대입하여 초기화
 
         // 결과 출력
         System.out.println(won + "원은 $" + dollar + "입니다.");     // System.out.println() 메소드 호출하여 원화, 달러 안내 메세지 출력

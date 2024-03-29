@@ -17,7 +17,7 @@ public class Ch2_7 {
         y = sc.nextInt();
 
         // 점이 직사각형 안에 있는지 판별
-        if((x1 < x && x < x2) && (y1 < y && y < y2))
+        if((x1 <= x && x <= x2) && (y1 <= y && y <= y2))
             isIn = true;
         else
             isIn = false;

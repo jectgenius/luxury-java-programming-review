@@ -16,18 +16,18 @@ public class Ch2_4 {
         num2 = sc.nextInt();
         num3 = sc.nextInt();
 
-        // 평균 값 찾아내기
-        // 1. num1이 평균 값
+        // 중간 값 찾아내기
+        // 1. num1이 중간 값
         if((num2 >= num1 && num1 >= num3) || (num3 >= num1 && num1 >= num2))
             medium = num1;
-        // 2. num2가 평균 값
+        // 2. num2가 중간 값
         else if((num1 >= num2 && num2 >= num3) || (num3 >= num2 && num2 >= num1))
             medium = num2;
-        // 3. num3가 평균 값
+        // 3. num3가 중간 값
         else
             medium = num3;
 
-        // 평균 값 출력
+        // 중간 값 출력
         System.out.println("중간 값은 " + medium);
 
         sc.close();
