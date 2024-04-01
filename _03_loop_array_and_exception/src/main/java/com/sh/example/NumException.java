@@ -15,5 +15,5 @@ public class NumException {
             System.out.println(stringNumber[i] + "는 정수로 변환할 수 없습니다.");  // System.out.println() 메소드 호출하여 정수로 변환할 수 없습니다. 안내 메세지 출력
         }
 
-    }                                           
+    }
 }
