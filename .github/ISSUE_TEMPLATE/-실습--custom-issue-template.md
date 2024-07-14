@@ -1,7 +1,7 @@
 ---
 name: "[실습] Custom issue template"
 about: Describe this issue template's purpose here.
-title: ''
+title: "[실습] 1장 자바 시작"
 labels: ''
 assignees: jectgenius
 
